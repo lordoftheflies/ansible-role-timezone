@@ -1,2 +1,5 @@
 ---
-# roles/timezone/vars/main.yml
+
+ansible_role_timezone:
+
+# vim: set ft=ansible ts=2 sts=2 sw=2 et:

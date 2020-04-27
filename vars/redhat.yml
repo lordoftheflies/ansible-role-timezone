@@ -1,4 +1,0 @@
----
-# roles/timezone/vars/debian.yml
-
-timezone_package_extension: 'rpm'
