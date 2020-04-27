@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - timezone_deployment_users_home: /root
+    - timezone_testing_provider: lxd
+
+  roles:
+    - timezone
