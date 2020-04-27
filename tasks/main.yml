@@ -30,18 +30,8 @@
 
 # Role tasks
 
-- name: "Install tzdata"
-  become: true
-  package:
-    name: tzdata
-
-- name: "Set the timezone"
-  become: true
-  template:
-    src: timezone.j2
-    dest: /etc/timezone
-    mode: 0644
-    backup: true
-  notify: reconfigure tzdata
+- name: "Set timezone"
+  timezone:
+    name: "{{ ansible_role_timezone }}"
 
 # vim: set ft=ansible ts=2 sts=2 sw=2 expandtab:
