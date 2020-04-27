@@ -4,7 +4,7 @@
 dependencies: []
 galaxy_info:
   role_name: 'ansible_role_timezone'
-  version: '2.0.0'
+  version: '2.9.0'
   author: 'lordoftheflies'
   description: 'Ansible Galaxy role for maintain Timezone.'
   company: 'Cherubits'
