@@ -11,8 +11,6 @@ description: 'Quickstart and examples for demonstrating the role capabilities.'
 
 [![Version](https://img.shields.io/github/v/tag/lordoftheflies/ansible-role-timezone?sort=semver)](https://github.com/lordoftheflies/ansible-role-timezone/releases)
 
-![GitHub Release Date](https://img.shields.io/github/release-date/lordoftheflies/ansible-role-timezone)
-
 [![time tracker](https://wakatime.com/badge/github/lordoftheflies/ansible-role-timezone.svg)](https://wakatime.com/badge/github/lordoftheflies/ansible-role-timezone)
 
 ## Description
